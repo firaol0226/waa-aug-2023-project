@@ -45,6 +45,7 @@ public class JobController {
     }
     @PutMapping("/{id}")
     @LogActivity(value = "Update job")
+    @CrossOrigin(origins = "*")
     public ResponseEntity<JobDto> update(@Valid @PathVariable Long id, @RequestBody JobDto jobDto){
         JobDto updatedJob = jobService.update(jobDto, id);
         if(updatedJob == null) {

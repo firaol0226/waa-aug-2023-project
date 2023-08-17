@@ -5,7 +5,8 @@ VALUES
     ( 'user2@example.com', 'securepass', 'Alice', 'Smith', 'ADMIN', false),
     ( 'user3@example.com', 'password456', 'Bob', 'Johnson', 'ADMIN', false),
     ( 'user4@example.com', 'securepass', 'Alicee', 'Smith', 'ADMIN', false),
-    ( 'user5@example.com', 'password456', 'Bobs', 'Johnson', 'ADMIN', false);
+    ( 'user5@example.com', 'password456', 'Bobs', 'Johnson', 'ADMIN', false),
+    ( 'email@mail.com', '$2a$10$ajzRJO2tRb3wKejoJTQ2SelYGBT5LFhJs.WrPxAP4cdy.Uskh98HO', 'Bobs2', 'Johnson2', 'ADMIN', false);
 
 -- Dummy data for Job table
 INSERT INTO job ( title, description, state, city, company_name, is_deleted, user_id)

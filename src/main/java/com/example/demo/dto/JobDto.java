@@ -24,6 +24,6 @@ public class JobDto {
     @NotBlank(message = "Company name is required")
     @Size(min = 5, max = 50, message = "Company name must be between 5 and 50 characters")
     private String companyName;
-    private User user;
+//    private User user;
     private boolean isDeleted = false;
 }
