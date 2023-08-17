@@ -75,8 +75,8 @@ INSERT INTO user (email, password, first_name, last_name, role, is_deleted) VALU
 
 -- Dummy Surveys
 INSERT INTO survey (title, description, start_date, end_date, is_active, created_at, update_at, is_deleted, user_id) VALUES
-                                                                                                                         ('Survey 1', 'This is survey 1 description', '2023-08-02 12:00:00', '2023-08-10 12:00:00', true, '2023-08-02 08:00:00', '2023-08-02 08:00:00', false, 1),
-                                                                                                                         ('Survey 2', 'Survey 2 description goes here', '2023-08-03 10:00:00', '2023-08-15 10:00:00', true, '2023-08-03 08:00:00', '2023-08-03 08:00:00', false, 2);
+                                                                                                                         ('Survey 1', 'This is survey 1 description', '2023-08-02 12:00:00', '2024-08-10 12:00:00', true, '2023-08-02 08:00:00', '2023-08-02 08:00:00', false, 1),
+                                                                                                                         ('Survey 2', 'Survey 2 description goes here', '2023-08-03 10:00:00', '2024-08-15 10:00:00', true, '2023-08-03 08:00:00', '2023-08-03 08:00:00', false, 2);
 
 -- Dummy SurveyQuestions
 INSERT INTO survey_question (question, question_type, is_required, is_deleted, created_at, update_at, survey_id) VALUES
